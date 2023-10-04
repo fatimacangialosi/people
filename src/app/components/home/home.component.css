@@ -1,0 +1,10 @@
+section {
+  background: #280a8a;
+  border: 2px solid black;
+  color: blanchedalmond;
+  width: 100%;
+  height: 200%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,0 +1,5 @@
+<app-navbar></app-navbar>
+<app-navbar *ngIf="pippo"></app-navbar>
+<app-footer *ngIf="!pippo"></app-footer>
+<button (click)="pippo = !pippo">Click</button>
+<app-home></app-home>
